@@ -23,8 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Spinner spinner = findViewById(R.id.spinner);
 
         //Color Array
-        String[] colors = {"White", "Blue", "Magenta", "Cyan", "Black", "Yellow", "Purple",
-                "Lime", "Red", "Gray"};
+        String[] colors = {"White", "Maroon", "Red", "Yellow" ,"Green", "Cyan", "Blue", "Magenta","Purple", "Gray", "Black"};
 
         ColorAdapter adapter = new ColorAdapter(MainActivity.this, colors);
         spinner.setAdapter(adapter);
