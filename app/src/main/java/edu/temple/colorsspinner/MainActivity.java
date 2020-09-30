@@ -15,14 +15,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        //Object Declaration
 
-        //This is the object declared as a view to make it easier to change colors
         final View window = this.getWindow().getDecorView();
-        //This is the Dropdown Spinner
+
+
         Spinner spinner = findViewById(R.id.spinner);
 
-        //Color Array
         String[] colors = {"White", "Maroon", "Red", "Yellow" ,"Green", "Cyan", "Blue", "Magenta","Purple", "Gray", "Black"};
 
         ColorAdapter adapter = new ColorAdapter(MainActivity.this, colors);
